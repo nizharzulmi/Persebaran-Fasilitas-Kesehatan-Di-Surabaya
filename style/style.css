@@ -1,0 +1,38 @@
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color:   orangered;
+	border-bottom: 3px solid rgba(139, 116, 0, 0.513);
+}
+
+li{
+	float: left;
+}
+
+li a{
+	display: block;
+	color: black;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 14px 22px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background-color: darkred;
+	color: white;
+}
+
+.active{
+	background-color: darkred;
+	color: white;
+}
+
+.P{
+	float: right;
+	color: darkred;
+	margin-right: 10px; 
+
+}
